@@ -2,6 +2,11 @@ body {
 	background-color: #e6e6e6;
 }
 
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
 .top-nav {
 	background: #dcdcdc;
 	border: 1px solid #d2d2d2;
@@ -31,21 +36,19 @@ body {
 	margin: 0px;
 }
 
-.listItem {
+.listText {
+	display: block;
 	background: #dcdcdc;
 	border: 1px solid #d2d2d2;
+	color: #161616;
 }
 
-.listItem:first-child {
+.listText:first-child {
 	border-top-right-radius: 6px;
 	border-top-left-radius: 6px;
 }
 
-.listItem:last-child {
+.listText:last-child {
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
-}
-
-.listText {
-	color: #161616;
 }
