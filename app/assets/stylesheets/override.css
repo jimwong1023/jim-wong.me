@@ -52,3 +52,7 @@ li {
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
 }
+
+#body-list {
+	padding-left: 18px;
+}
