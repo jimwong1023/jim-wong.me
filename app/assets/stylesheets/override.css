@@ -2,13 +2,8 @@ body {
 	background-color: #e6e6e6;
 }
 
-li {
-	display: list-item;
-	text-align: -webkit-match-parent;
-}
-
 .top-nav {
-	background: #dcdcdc;
+	background: #A9A9A9;
 	border: 1px solid #d2d2d2;
 }
 
@@ -38,7 +33,7 @@ li {
 
 .listText {
 	display: block;
-	background: #dcdcdc;
+	background: #A9A9A9;
 	border: 1px solid #d2d2d2;
 	color: #161616;
 }
@@ -51,6 +46,10 @@ li {
 .listText:last-child {
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
+}
+
+.title-padding {
+	padding-top: 40px;
 }
 
 #body-list {
